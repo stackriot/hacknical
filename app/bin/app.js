@@ -69,7 +69,7 @@ app.use(new csrf());
 app.use(async (ctx, next) => {
   ctx.state = Object.assign({}, ctx.state, {
     assetsPath,
-    csrf: ctx.csrf,
+    // csrf: ctx.csrf,
     isMobile: false,
     env: process.env.NODE_ENV
   });
@@ -79,7 +79,6 @@ app.use(async (ctx, next) => {
 // user-agent
 app.use(convert(userAgent()));
 
-// 配置nunjucks模板文件所在的路径，否则模板继承时无法使用相对路径
 nunjucks.configure(path.join(__dirname, '../templates'), { autoescape: true });
 // frontend static file
 app.use(convert(require('koa-static')(path.join(__dirname, '../../public'))));
@@ -96,6 +95,6 @@ app.on('error', (err, ctx) => {
   logger.error(err);
 });
 
-app.listen(process.env.PORT || port);
+app.listen(process.env.PORT || port || 5000);
 
 export default app;

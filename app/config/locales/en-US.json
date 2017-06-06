@@ -1,69 +1,69 @@
 {
-  "language": {
-    "text": "En",
-    "id": "en"
-  },
-  "description": "hacknical - A website for GitHub user to make a better resume.",
-  "keywords": "GitHub, GitHub-Contributions, GitHub-Analysis, Resume, Resume-Template, Data-Analysis",
-  "loginPage": {
-    "title": "hacknical | Make a better resume",
-    "login": "LOGIN",
-    "about": "ABOUT",
-    "loginText": "USE GITHUB DATA TO MAKE A BETTER RESUME",
-    "loginButtonText": "Login with GitHub"
-  },
-  "errorPage": {
-    "title": "hacknical | not found",
-    "404": "404 not found.",
-    "text": "WTF? YOU ARE IN THE NO-MANS LAND",
-	  "redirectText": "Going back home in a few seconds"
-  },
-  "dashboard": {
-    "title": "hacknical | %s",
-    "about": "about",
+	"language": {
+		"text": "En",
+		"id": "en"
+	},
+	"description": "hacknical - A website for GitHub user to make a better resume.",
+	"keywords": "GitHub, GitHub-Contributions, GitHub-Analysis, Resume, Resume-Template, Data-Analysis",
+	"loginPage": {
+		"title": "hacknical | Make a better resume",
+		"login": "LOGIN",
+		"about": "ABOUT",
+		"loginText": "USE GITHUB DATA TO MAKE A BETTER RESUME",
+		"loginButtonText": "Login with GitHub"
+	},
+	"errorPage": {
+		"title": "hacknical | not found",
+		"404": "404 not found.",
+		"text": "YOU ARE IN THE NO-MANS LAND",
+		"redirectText": "Going back home in a few seconds"
+	},
+	"dashboard": {
+		"title": "hacknical | %s",
+		"about": "about",
 		"feedback": "feedback",
 		"code": "source code"
-  },
-  "sharePage": {
-    "github": "%s's GitHub summary | hacknical",
-    "joinAt": "Joined at"
-  },
-  "resumePage": {
-    "title": "%s's resume | hacknical"
-  },
-  "mobilePage": {
-    "setting": "Setting",
-    "analysis": "Share records",
-    "menu": {
-      "shareDatas": "Share Records",
-      "githubShare": "GitHub Analysis",
-      "resumeShare": "Personal Resume",
-      "dataRefresh": "Settings",
-      "logout": "Logout"
-    }
-  },
-  "messages": {
-    "error": {
-      "findUser": "Find user failed",
-      "frequent": "Too many attempts, please retry later",
-      "update": "Update failed"
-    },
-    "success": {
-      "save": "Save succeeded",
-      "update": "Update succeeded. Please refresh to check.",
-      "updateRepos": "Repos are successfully update",
-      "updateCommits": "Commmits are successfully update",
+	},
+	"sharePage": {
+		"github": "%s's GitHub summary | hacknical",
+		"joinAt": "Joined at"
+	},
+	"resumePage": {
+		"title": "%s's resume | hacknical"
+	},
+	"mobilePage": {
+		"setting": "Setting",
+		"analysis": "Share records",
+		"menu": {
+			"shareDatas": "Share Records",
+			"githubShare": "GitHub Analysis",
+			"resumeShare": "Personal Resume",
+			"dataRefresh": "Settings",
+			"logout": "Logout"
+		}
+	},
+	"messages": {
+		"error": {
+			"findUser": "Find user failed",
+			"frequent": "Too many attempts, please retry later",
+			"update": "Update failed"
+		},
+		"success": {
+			"save": "Save succeeded",
+			"update": "Update succeeded. Please refresh to check.",
+			"updateRepos": "Repos are successfully update",
+			"updateCommits": "Commmits are successfully update",
 			"updateOrgs": "User orgs are successfully update"
-    },
-    "share": {
-      "text": "Wanna check your GitHub data analysis visually?",
-      "mobileText": "Check your GitHub data analysis",
-      "toggleOpen": "Share enabled",
-      "toggleClose": "Share disabled"
-    },
-    "resume": {
-      "linkGithub": "Resume linked with GitHub",
-      "unlinkGithub": "Resume unlinked with GitHub"
-	  }
-  }
+		},
+		"share": {
+			"text": "Wanna check your GitHub data analysis visually?",
+			"mobileText": "Check your GitHub data analysis",
+			"toggleOpen": "Share enabled",
+			"toggleClose": "Share disabled"
+		},
+		"resume": {
+			"linkGithub": "Resume linked with GitHub",
+			"unlinkGithub": "Resume unlinked with GitHub"
+		}
+	}
 }

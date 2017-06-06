@@ -6,7 +6,7 @@ const checkSession = (params = []) => async (ctx, next) => {
   if (!check(params, ctx.session)) {
     return ctx.body = {
       success: true,
-      message: 'session 缺失，请登录',
+      message: 'session sign on',
       url: '/user/login'
     };
   }

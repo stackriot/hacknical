@@ -72,7 +72,7 @@ class Header extends React.Component {
               className={styles["menu_tipso"]}
               tipsoContent={(<span>{headers.about}</span>)}>
               <a
-                href={`https://github.com/sethbergman/hacknical/blob/master/doc/ABOUT-${locale || 'en'}.md`}
+                href={`https://github.com/stackriot/hacknical/blob/master/doc/ABOUT-${locale || 'en'}.md`}
                 target="_blank"
                 className={styles["header_menu_icon_right"]}>
                 <i className="fa fa-question-circle" aria-hidden="true"></i>
@@ -84,7 +84,7 @@ class Header extends React.Component {
               className={styles["menu_tipso"]}
               tipsoContent={(<span>{headers.feedback}</span>)}>
               <a
-                href="https://github.com/sethbergman/hacknical/issues"
+                href="https://github.com/stackriot/hacknical/issues"
                 target="_blank"
                 className={styles["header_menu_icon_right"]}>
                 <i className="fa fa-info-circle" aria-hidden="true"></i>

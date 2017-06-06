@@ -41,32 +41,20 @@ export const GENDERS = [
 
 export const EDUCATIONS = [
   {
-    id: '初中',
-    value: eduTexts.juniorHigh
+    id: 'highSchool',
+    value: eduTexts.highSchool
   },
   {
-    id: '高中',
-    value: eduTexts.seniorHigh
+    id: 'college',
+    value: eduTexts.college
   },
   {
-    id: '大专',
-    value: eduTexts.juniorCollege
+    id: 'devTraining',
+    value: eduTexts.devTraining
   },
   {
-    id: '本科',
-    value: eduTexts.undergraduate
-  },
-  {
-    id: '硕士',
-    value: eduTexts.master
-  },
-  {
-    id: '博士',
-    value: eduTexts.doctor
-  },
-  {
-    id: '其他',
-    value: eduTexts.others
+    id: 'other',
+    value: eduTexts.other
   }
 ];
 
@@ -77,13 +65,14 @@ export const SOCIAL_LINKS = [
     url: ''
   },
   {
-    name: 'segmentfault',
-    icon: 'sg.jpg',
+    name: 'website',
+    text: 'Personal website',
+    icon: 'gold.jpeg',
     url: ''
   },
   {
     name: 'blog',
-    text: '个人博客',
+    text: 'Blog link',
     icon: 'blog.png',
     url: ''
   },
@@ -91,20 +80,13 @@ export const SOCIAL_LINKS = [
     name: 'stackoverflow',
     icon: 'stackoverflow.png',
     url: ''
-  },
-  {
-    name: 'xitu',
-    text: '稀土掘金',
-    icon: 'gold.jpeg',
-    url: ''
   }
 ];
 export const LINK_NAMES = {
   github: 'github',
-  segmentfault: 'segmentfault',
-  blog: '个人博客',
-  stackoverflow: 'stackoverflow',
-  xitu: '稀土掘金'
+  website: 'website',
+  blog: 'blog',,
+  stackoverflow: 'stackoverflow'
 };
 
 export const INFO = {

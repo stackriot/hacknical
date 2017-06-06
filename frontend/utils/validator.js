@@ -2,7 +2,7 @@ import validator from 'validator';
 
 const email = value => validator.isEmail(value);
 
-const phone = value => validator.isMobilePhone(value, 'zh-CN');
+const phone = value => validator.isMobilePhone(value, 'en-US');
 
 const empty = value => validator.isEmpty(value);
 

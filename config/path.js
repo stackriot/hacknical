@@ -10,7 +10,7 @@ const DLL_PATH = path.resolve(ROOT_PATH, './public/dll');
 const SERVER_PATH = `${CDN.URL}/assets/`;
 const SOURCE_PATH = path.join(ROOT_PATH, './frontend');
 const ENTRY_PATH = path.join(SOURCE_PATH, './entries');
-// const TEMPLATES_PATH = path.join(ROOT_PATH, './src/templates');
+const TEMPLATES_PATH = path.join(ROOT_PATH, './src/templates');
 
 module.exports = {
   ROOT_PATH,
@@ -20,6 +20,6 @@ module.exports = {
   SERVER_PATH,
   CURRENT_PATH,
   ENTRY_PATH,
-  // TEMPLATES_PATH,
+  TEMPLATES_PATH,
   SOURCE_PATH
 };

@@ -59,13 +59,12 @@ const datas = {
       title: "Other Info",
       expectSalary: 'Expected salary',
       expectCity: 'City',
-      yourDream: 'Your dream job?',
+      yourDream: 'Your dream job',
       personalIntro: 'Personal intro',
-      introText: 'Write your personal intro then press enter.',
+      introText: 'Write your personal intro and press enter.',
       links: {
-        title: 'Other Links',
+        title: 'Links',
         github: 'GitHub link',
-        twitter: 'Twitter link',
         website: 'Personal website',
         blog: 'Blog link',
         stackoverflow: 'StackOverflow link'
@@ -88,7 +87,7 @@ const datas = {
     edus: {
       highSchool: 'High School',
       college: 'College',
-      courses: 'Code Courses',
+      devTraining: 'Developer Training',
       other: 'Other'
     }
   }

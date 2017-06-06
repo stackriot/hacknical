@@ -8,12 +8,12 @@
 
 Extract dependency：
 
-- UI Components --> [light-ui](https://github.com/sethbergman/light-ui)
-- GitHub API crawler --> [hacknical-api](https://github.com/sethbergman/hacknical-api)
+- UI Components --> [light-ui](https://github.com/stackriot/light-ui)
+- GitHub API crawler --> [hacknical-api](https://github.com/stackriot/hacknical-api)
 
 ## Examples
 
-- [My GitHub data analysis](http://npmstack.com/github/sethbergman?locale=en)
+- [My GitHub data analysis](http://hacknical.npmstack.com/github/sethbergman?locale=en)
 
 ## Screenshots
 

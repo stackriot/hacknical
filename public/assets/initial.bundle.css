@@ -1,0 +1,641 @@
+/*
+ *
+ *  𝗖 𝗢 𝗟 𝗢 𝗥
+ *  v 1.5.1
+ *
+ *  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+:root {
+
+/*  General
+ *  ─────────────────────────────────── */
+
+
+/*  Gray
+ *  ─────────────────────────────────── */
+
+
+/*  Red
+ *  ─────────────────────────────────── */
+
+
+/*  Pink
+ *  ─────────────────────────────────── */
+
+
+/*  Grape
+ *  ─────────────────────────────────── */
+
+
+/*  Violet
+ *  ─────────────────────────────────── */
+
+
+/*  Indigo
+ *  ─────────────────────────────────── */
+
+
+/*  Blue
+ *  ─────────────────────────────────── */
+
+
+/*  Cyan
+ *  ─────────────────────────────────── */
+
+
+/*  Teal
+ *  ─────────────────────────────────── */
+
+
+/*  Green
+ *  ─────────────────────────────────── */
+
+
+/*  Lime
+ *  ─────────────────────────────────── */
+
+
+/*  Yellow
+ *  ─────────────────────────────────── */
+
+
+/*  Orange
+ *  ─────────────────────────────────── */
+
+}
+
+@-webkit-keyframes initial__flash___LzDl1 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes initial__flash___LzDl1 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes initial__loading___3ZJya {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes initial__loading___3ZJya {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.initial__content-section___1nuXk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0
+}
+
+.initial__content-section___1nuXk:last-child {}
+
+.initial__content-section___1nuXk:last-child .initial__content-cursor___34oA8 {
+background-color: #ffffff;
+
+}
+
+.initial__content-info___1I2_Y {
+  line-height: 1.1em;
+  font-size: 1.5em;
+}
+
+.initial__content-cursor___34oA8 {
+  margin-left: 5px;
+  width: 8px;
+  height: 20px;
+}
+
+.initial__cursor-flash___3J-B0 {
+  -webkit-animation: initial__flash___LzDl1 0.7s infinite ease-in-out;
+          animation: initial__flash___LzDl1 0.7s infinite ease-in-out;
+}
+
+.initial__cursor-loading___1IOCE {
+  -webkit-animation: initial__loading___3ZJya 0.7s infinite linear;
+          animation: initial__loading___3ZJya 0.7s infinite linear;
+}
+:root {
+  /* ===== zIndex ===== */
+}
+/*
+ *
+ *  𝗖 𝗢 𝗟 𝗢 𝗥
+ *  v 1.5.1
+ *
+ *  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+:root {
+
+/*  General
+ *  ─────────────────────────────────── */
+
+
+/*  Gray
+ *  ─────────────────────────────────── */
+
+
+/*  Red
+ *  ─────────────────────────────────── */
+
+
+/*  Pink
+ *  ─────────────────────────────────── */
+
+
+/*  Grape
+ *  ─────────────────────────────────── */
+
+
+/*  Violet
+ *  ─────────────────────────────────── */
+
+
+/*  Indigo
+ *  ─────────────────────────────────── */
+
+
+/*  Blue
+ *  ─────────────────────────────────── */
+
+
+/*  Cyan
+ *  ─────────────────────────────────── */
+
+
+/*  Teal
+ *  ─────────────────────────────────── */
+
+
+/*  Green
+ *  ─────────────────────────────────── */
+
+
+/*  Lime
+ *  ─────────────────────────────────── */
+
+
+/*  Yellow
+ *  ─────────────────────────────────── */
+
+
+/*  Orange
+ *  ─────────────────────────────────── */
+
+}
+:root {
+  /* ===== colors ===== */
+
+  /* ====== gray ====== */
+
+  /* ====== green ====== */
+
+  /* ====== blue ====== */
+
+  /* ====== red ====== */
+}
+.message__message_component___1Qu_T {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: -120%;
+  min-height: 50px;
+  width: 80%;
+  background-color: #dee2e6;
+  color: #ffffff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, .12), 0 0 8px 0 rgba(0, 0, 0, .08);
+  border-radius: 2px;
+  transition: top 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: 9999;
+  font-size: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none
+}
+.message__message_component___1Qu_T.message__positive___3nK1R {
+  background-color: #37b24d
+}
+.message__message_component___1Qu_T.message__negative___iknpW {
+  background-color: #f03e3e
+}
+.message__message_component___1Qu_T.message__tips___1Javl {
+  background-color: #51cf66
+}
+.message__message_component___1Qu_T.message__active___3TaXa {
+  top: 20px
+}
+.message__message_component___1Qu_T i {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%)
+}
+.message__message_component___1Qu_T .message__message_content___1WExt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+  display: table;
+  text-align: center
+}
+@media (max-width: 500px) {
+  .message__message_component___1Qu_T {
+    font-size: 12px
+  }
+  .message__message_component___1Qu_T i {
+    display: none
+  }
+}
+:root {
+  /* ===== zIndex ===== */
+}
+.short_message__message-component___PDaEM {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 4px;
+  padding: 23px 30px;
+  color: #fff;
+  font-size: 14px;
+  z-index: 999;
+}
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+#nprogress .bar {
+  background: #29d;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+}
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+/*
+ *
+ *  𝗖 𝗢 𝗟 𝗢 𝗥
+ *  v 1.5.1
+ *
+ *  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+:root {
+
+/*  General
+ *  ─────────────────────────────────── */
+
+
+/*  Gray
+ *  ─────────────────────────────────── */
+
+
+/*  Red
+ *  ─────────────────────────────────── */
+
+
+/*  Pink
+ *  ─────────────────────────────────── */
+
+
+/*  Grape
+ *  ─────────────────────────────────── */
+
+
+/*  Violet
+ *  ─────────────────────────────────── */
+
+
+/*  Indigo
+ *  ─────────────────────────────────── */
+
+
+/*  Blue
+ *  ─────────────────────────────────── */
+
+
+/*  Cyan
+ *  ─────────────────────────────────── */
+
+
+/*  Teal
+ *  ─────────────────────────────────── */
+
+
+/*  Green
+ *  ─────────────────────────────────── */
+
+
+/*  Lime
+ *  ─────────────────────────────────── */
+
+
+/*  Yellow
+ *  ─────────────────────────────────── */
+
+
+/*  Orange
+ *  ─────────────────────────────────── */
+
+}
+
+* {
+  font-family: 'VT323', 'Lato', monospace, sans-serif;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.content {
+  max-width: 600px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 50px 0;
+  width: 80%;
+}
+
+.content-header {
+  font-size: 2em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*
+ *
+ *  𝗖 𝗢 𝗟 𝗢 𝗥
+ *  v 1.5.1
+ *
+ *  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+:root {
+
+/*  General
+ *  ─────────────────────────────────── */
+
+
+/*  Gray
+ *  ─────────────────────────────────── */
+
+
+/*  Red
+ *  ─────────────────────────────────── */
+
+
+/*  Pink
+ *  ─────────────────────────────────── */
+
+
+/*  Grape
+ *  ─────────────────────────────────── */
+
+
+/*  Violet
+ *  ─────────────────────────────────── */
+
+
+/*  Indigo
+ *  ─────────────────────────────────── */
+
+
+/*  Blue
+ *  ─────────────────────────────────── */
+
+
+/*  Cyan
+ *  ─────────────────────────────────── */
+
+
+/*  Teal
+ *  ─────────────────────────────────── */
+
+
+/*  Green
+ *  ─────────────────────────────────── */
+
+
+/*  Lime
+ *  ─────────────────────────────────── */
+
+
+/*  Yellow
+ *  ─────────────────────────────────── */
+
+
+/*  Orange
+ *  ─────────────────────────────────── */
+
+}
+
+.button__button-container___2YPTx {
+  margin-top: 30px;
+  margin-left: 2px;
+}
+
+.button__button-wrapper___3zjXe {
+  display: inline-block;
+  position: relative
+}
+
+.button__button-wrapper___3zjXe::before {
+content: '';
+display: block;
+background-color: #000000;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+position: absolute;
+-webkit-transform: translate(10px, 10px);
+        transform: translate(10px, 10px);
+border-radius: 1px;
+transition: background-color 0.15s;
+
+}
+
+.button__button___RchSQ {
+  padding: 10px 25px;
+  font-size: 2em;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  cursor: pointer;
+  border-radius: 1px;
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.button__button-hover___YbU5Z {
+}
+
+.button__button-hover___YbU5Z .button__button-wrapper___3zjXe .button__button___RchSQ {
+-webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+
+}
+
+.button__button-press___3tcVk {
+}
+
+.button__button-press___3tcVk .button__button-wrapper___3zjXe::before {
+background-color: transparent;
+
+}
+
+.button__button-press___3tcVk .button__button-wrapper___3zjXe .button__button___RchSQ {
+-webkit-transform: translate(8px, 8px);
+        transform: translate(8px, 8px);
+
+}
