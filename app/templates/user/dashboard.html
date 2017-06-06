@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+
+{% block css %}
+  <link href="{{ assetsPath("dashboard.css") }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block body %}
+  <div id="loading">
+    <div class="loading_container">
+      <div class="ball-clip-rotate-multiple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+  <div id="root"></div>
+  {% include "layouts/footer.html" %}
+{% endblock %}
+
+{% block js %}
+  <script src="{{ assetsPath("vendor/qrcode.min.js") }}"></script>
+  <script src="{{ assetsPath("dashboard.js") }}"></script>
+{% endblock %}

@@ -1,0 +1,68 @@
+@import 'open-color/open-color.css';
+
+.operations_container {
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  transform: translateX(-100%);
+  z-index: var(--zIndex9);
+}
+
+.operations_more {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+
+  & i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.active,
+  &:hover {
+    box-shadow: var(--shadow1);
+    background-color: var(--oc-white);
+  }
+}
+
+.operations_menu {
+  position: absolute;
+  box-shadow: var(--shadow2);
+  border-radius: 2px;
+  background-color: var(--oc-white);
+  top: 100%;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  composes: hidden-z-index from 'STYLES/common.css';
+}
+
+.operations_menu_active {
+  opacity: 1;
+  composes: common-z-index from 'STYLES/common.css';
+}
+
+.operation_item {
+  padding: 10px 20px;
+  min-width: 85px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--oc-gray-2);
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--oc-gray-2);
+  }
+
+  & i {
+    margin-right: 7px;
+  }
+}

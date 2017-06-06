@@ -1,0 +1,25 @@
+{% extends "layouts/base.html" %}
+
+{% block css %}
+  <link href="{{ assetsPath("share_resume.css") }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block body %}
+  <div id="loading">
+    <div class="loading_container">
+      <div class="ball-clip-rotate-multiple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+  <div id="resume"></div>
+{% endblock %}
+
+{% block js %}
+  <script>
+    window.resumeHash = '{{ resumeHash }}';
+    window.login = '{{ login }}';
+  </script>
+  <script src="{{ assetsPath("share_resume.js") }}"></script>
+{% endblock %}

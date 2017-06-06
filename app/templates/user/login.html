@@ -1,0 +1,38 @@
+{% extends "layouts/base.html" %}
+
+{% block css %}
+  <link href="{{ assetsPath("login.css") }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block body %}
+<div id="login" class="login-main">
+  <div class="topbar">
+    <div class="topbar-selector">
+      {% for item in locales %}
+        <a href="/user/login?locale={{ item.id }}">
+          {{ item.text }}
+        </a>
+      {% endfor %}
+    </div>
+    <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id={{ clientId }}">
+      {{ login }}
+    </a>
+    <a href="https://github.com/sethbergman/hacknical/blob/master/doc/ABOUT-{{ locale }}.md" target="_blank">
+      {{ about }}
+    </a>
+  </div>
+  <div class="login-pannel">
+    <div class="title">hacknical</div>
+    <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id={{ clientId }}" class="github_login_link">
+      <i class="fa fa-github" aria-hidden="true"></i>&nbsp;{{ loginButtonText }}
+    </a>
+    <span>
+      {{ loginText }}
+    </span>
+  </div>
+</div>
+{% endblock %}
+
+{% block js %}
+  <script src="{{ assetsPath("login.js") }}"></script>
+{% endblock %}

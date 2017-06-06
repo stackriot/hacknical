@@ -1,0 +1,160 @@
+@import 'open-color/open-color.css';
+
+/* main */
+.app {
+  width: 100%;
+}
+
+.app_top,
+.app_content {
+  width: 100%;
+}
+
+.app_content {
+  margin-top: 80px;
+}
+
+/* header */
+.app_header {
+  background-color: var(--oc-white);
+  color: var(--oc-gray-7);
+  height: 50px;
+  line-height: 50px;
+}
+
+.app_header_container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1248px;
+  display: flex;
+  max-width: 750px;
+  height: 50px;
+}
+
+/* tabbar */
+.tab_container {
+  flex: 1;
+  color: var(--oc-gray-6);
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+
+  & i {
+    color: var(--oc-gray-6);
+  }
+
+  &.enable:hover,
+  &.active {
+    color: var(--oc-green-7);
+    border-bottom: 3px solid var(--oc-green-7);
+
+    & .app_tab {
+      color: var(--oc-green-7);
+    }
+
+    & i {
+      color: var(--oc-green-7);
+    }
+  }
+}
+
+.app_tab {
+  width: 100%;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: var(--oc-gray-6);
+  position: relative;
+}
+
+.tab_tipso.tab_tipso {
+  display: inline-block;
+  line-height: 16px;
+  width: 120px;
+  color: var(--oc-gray-6);
+}
+
+/* content */
+.content_container {
+  width: 100%;
+  margin: 30px 0;
+}
+
+/* header */
+.header_zen {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.zen {
+  line-height: 22px;
+  margin: 0 10px;
+  font-size: 12px;
+  position: relative;
+}
+
+.header_menus {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header_menu_icon {
+  cursor: pointer;
+  display: block;
+  color: var(--oc-gray-7);
+  text-decoration: none;
+  line-height: normal;
+}
+
+.header_menu_icon_right {
+  composes: header_menu_icon;
+  position: relative;
+  margin: 0 10px;
+}
+
+.dropdown_wrapper {
+  height: 1.8em;
+  line-height: 1.8em;
+  overflow: hidden;
+  min-width: 40px;
+  text-align: center;
+  z-index: var(--zIndex999);
+
+  &:hover {
+    overflow: visible;
+  }
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.dropdown_item {
+  cursor: pointer;
+  display: block;
+  color: var(--oc-gray-7);
+  text-decoration: none;
+  font-size: 12px;
+  height: 100%;
+  background-color: var(--oc-white);
+  box-shadow: var(--shadow2);
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--oc-gray-1);
+  }
+}
+
+.menu_tipso {
+  min-width: 50px !important;
+  transform: translate(-50%, 15px);
+  z-index: var(--zIndex999) !important;
+}
+
+.zen_tipso {
+  transform: translate(-50%, 0px);
+  z-index: var(--zIndex999) !important;
+  min-width: 90px !important;
+}

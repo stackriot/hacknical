@@ -1,0 +1,20 @@
+{% extends "layouts/base.html" %}
+
+{% block css %}
+  <link href="{{ assetsPath("initial.css") }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block body %}
+<div class="app">
+  <div class="content">
+    <div class="content-header">
+      initializing - {{ login }}
+    </div>
+    <div class="content-wrapper"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block js %}
+  <script src="{{ assetsPath("initial.js") }}"></script>
+{% endblock %}
