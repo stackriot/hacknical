@@ -28,7 +28,7 @@ const datas = {
       starPercentage: 'Star percentage',
       forkedRepos: 'Forked repos',
       createdRepos: 'Created repos',
-      tipso: 'Haven\'t combine orgs/forked repos info yet'
+      tipso: 'Haven\'t combined orgs/forked repos yet'
     },
     course: {
       emptyText: 'No repositories info, please refresh later',

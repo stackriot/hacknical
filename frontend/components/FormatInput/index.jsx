@@ -1,6 +1,4 @@
 import React, { PropTypes } from 'react';
-import Cleave from 'cleave.js';
-import 'cleave.js/dist/addons/cleave-phone.cn';
 import { Input } from 'light-ui';
 
 const FORMAT_TYPES = {
@@ -10,7 +8,7 @@ const FORMAT_TYPES = {
   },
   phone: {
     phone: true,
-    phoneRegionCode: 'CN'
+    phoneRegionCode: 'US'
   },
   number: {
     numeral: true,
@@ -21,7 +19,7 @@ const FORMAT_TYPES = {
 class FormatInput extends React.Component {
   componentDidMount() {
     const { id, formatType } = this.props;
-    new Cleave(`#${id}`, FORMAT_TYPES[formatType]);
+    const formatType = (`#${id}`, FORMAT_TYPES[formatType]);
   }
 
   render() {

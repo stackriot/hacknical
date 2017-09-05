@@ -2,7 +2,7 @@ const datas = {
   tabs: {
     profile: {
       text: 'Profile',
-      tipso: 'record your shared page datas'
+      tipso: 'Build your profile'
     },
     resume: {
       text: 'Resume',
@@ -58,7 +58,7 @@ const datas = {
     },
     resume: {
       title: 'Resume',
-      openShare: 'Open share',
+      share: 'Share',
       useGithub: 'Use GitHub analysis in resume',
       showheatmap: 'Show heatmap',
       showRepos: 'Show repos',
