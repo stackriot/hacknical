@@ -2,14 +2,14 @@
 	"name": "hacknical",
 	"version": "1.5.7",
 	"description": "hacker && technical",
-	"main": "dist/bin/app.js",
+	"main": "bin/app.js",
 	"scripts": {
 		"build-app": "babel app -d dist --copy-files",
 		"build-static": "npm run build-dll-pro",
 		"build-dll": "node local:build:dll",
 		"build-dll-pro": "node pro:build:dll",
 		"start-dev": "npm run build-dll && npm run start-app",
-		"start-app": "node local:app:start & node local:build:src"
+		"start": "node bin/app.js"
 	},
 	"author": "Seth Bergman",
 	"license": "Apache-2.0",
