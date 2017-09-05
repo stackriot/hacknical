@@ -28,16 +28,16 @@ const app = new Koa();
 app.proxy = true;
 app.keys = [appKey];
 
-const options = {
-  defaultLocale: 'en-US',
-  dirs: [path.join(__dirname, '../config/locales')],
-  localeAlias: {
-    'en': 'en-US',
-    'fr': 'fr-FR',
-    'zh': 'zh-CN'
-  }
-};
-locales(app, options);
+// const options = {
+//   defaultLocale: 'en-US',
+//   dirs: [path.join(__dirname, '../config/locales')],
+//   localeAlias: {
+//     'en': 'en-US',
+//     'fr': 'fr-FR',
+//     'zh': 'zh-CN'
+//   }
+// };
+// locales(app, options);
 
 app.use(convert(cors()));
 // error handle
