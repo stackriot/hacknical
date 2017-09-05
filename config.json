@@ -1,28 +1,28 @@
-{
-	"production": true,
-	"port": "5000",
-	"appKey": "hacknical-key",
-	"appName": "hacknical",
-	"redis": "redis://localhost:6379/3",
-	"database": {
-		"url": "mongodb://npmstack:hawkeye121@ds111882.mlab.com:11882/hawkeye"
-	},
-	"links": {
-		"github": "https://github.com/stackriot/hacknical",
-		"issue": "https://github.com/stackriot/hacknical/issues",
-		"homePage": "http://hacknical.npmstack.com"
-	},
-	"qiniu": {
-		"BucketName": "",
-		"AccessKey": "",
-		"SecretKey": ""
-	},
-	"services": {
-		"api": {
-			"url": "",
-			"timeouts": []
-		},
-		"slack": null
-	},
-	"cdn": ""
-}
+// {
+// 	"production": true,
+// 	"port": "5000",
+// 	"appKey": "hacknical-key",
+// 	"appName": "hacknical",
+// 	"redis": "redis://localhost:6379/3",
+// 	"database": {
+// 		"url": "mongodb://npmstack:hawkeye121@ds111882.mlab.com:11882/hawkeye"
+// 	},
+// 	"links": {
+// 		"github": "https://github.com/stackriot/hacknical",
+// 		"issue": "https://github.com/stackriot/hacknical/issues",
+// 		"homePage": "http://hacknical.npmstack.com"
+// 	},
+// 	"qiniu": {
+// 		"BucketName": "",
+// 		"AccessKey": "",
+// 		"SecretKey": ""
+// 	},
+// 	"services": {
+// 		"api": {
+// 			"url": "",
+// 			"timeouts": []
+// 		},
+// 		"slack": null
+// 	},
+// 	"cdn": ""
+// }

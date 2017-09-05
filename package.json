@@ -9,7 +9,7 @@
 		"build-dll": "node local:build:dll",
 		"build-dll-pro": "node pro:build:dll",
 		"start-dev": "npm run build-dll && npm run start-app",
-		"start": "node bin/app.js"
+		"start": "node app/bin/app.js"
 	},
 	"author": "Seth Bergman",
 	"license": "Apache-2.0",
@@ -97,7 +97,6 @@
 		"object-assign": "^4.1.0",
 		"open-color": "^1.4.0",
 		"particles.js": "^2.0.0",
-		"phantom": "^4.0.1",
 		"redis": "^2.6.3",
 		"request": "^2.75.0",
 		"scrollreveal": "^3.3.2",
