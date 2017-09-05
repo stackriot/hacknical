@@ -69,7 +69,7 @@ app.use(new csrf());
 app.use(async (ctx, next) => {
   ctx.state = Object.assign({}, ctx.state, {
     assetsPath,
-    // csrf: ctx.csrf,
+    csrf: ctx.csrf,
     isMobile: false,
     env: process.env.NODE_ENV
   });
